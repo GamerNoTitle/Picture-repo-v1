@@ -8,10 +8,10 @@ def findAllFile(base):
 
 def main():
     base = './'
-    jsonheadlist=[]
-    jsonlinklist=[]
+    linklist=[]
     for i in findAllFile(base):
-        print('{}: "https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/BQB/{}",'.format(i,i))
+        linklist.append('{}: "https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/BQB/{}",'.format(i.replace('[','').replace(']',''),i))
+    print(linklist)
 
 if __name__ == '__main__':
     main()
