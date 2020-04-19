@@ -9,9 +9,11 @@ def findAllFile(base):
 def main():
     base = './'
     linklist=[]
+    num=1
     for i in findAllFile(base):
-        linklist.append('{}: "https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/BQB/{}",'.format(i.replace('[','').replace(']',''),i))
-    print(linklist)
-
+        linklist.append('custom{}: "https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/BQB/{}",'.format(num,i))
+        num=num+1
+    print(str(linklist).replace(',\', \'',', '))
+    # print(linklist)
 if __name__ == '__main__':
     main()
