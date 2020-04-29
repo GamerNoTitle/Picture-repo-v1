@@ -1,0 +1,18 @@
+body {
+	background-color: #935d8c;
+	background-image: url("http://mcstats.bili33.top:8880/assets/images/overlay.png"), -moz-linear-gradient(45deg, #6DD0F2 15%, #F59ABE 85%);
+	background-image: url("http://mcstats.bili33.top:8880/assets/images/overlay.png"), -webkit-linear-gradient(45deg, #6DD0F2 15%, #F59ABE 85%);
+	background-image: url("http://mcstats.bili33.top:8880/assets/images/overlay.png"), -ms-linear-gradient(45deg, #6DD0F2 15%, #F59ABE 85%);
+	background-image: url("http://mcstats.bili33.top:8880/assets/images/overlay.png"), linear-gradient(45deg, #6DD0F2 15%, #F59ABE 85%);
+}
+
+	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
+	}
