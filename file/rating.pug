@@ -3,7 +3,7 @@ html
     #wpac-rating(align="center")
     script(type="text/javascript").
       wpac_init = window.wpac_init || [];
-      wpac_init.push({widget: 'Rating', id: xxxxx});  //- 这里将xxxxx改成自己的id
+      wpac_init.push({widget: 'Rating', id: !{theme.rating.id}});  //- 这里将xxxxx改成自己的id
       (function() {
       if ('WIDGETPACK_LOADED' in window) return;
       WIDGETPACK_LOADED = true;
