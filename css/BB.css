@@ -1,0 +1,65 @@
+/* bb哔哔 */
+/* bb样式 */
+
+.timeline ul li{
+    position: relative;
+    padding-left: 2.5rem;
+  }
+  
+  /* 每条动态 */
+  #bber > section > ul > div > li > div{
+    display: flex;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    background: var(--heo-post-blockquote-bg);
+    box-shadow: var(--heo-shadow-lightblack);
+    border-radius: 12px;
+    padding: 8px 16px;
+    margin-top: 12px;
+  }
+  
+  #bber p{
+    margin: 0;
+  }
+  
+  /* 时间 */
+  #bber > section > ul > div > li > div .datatime{
+    order: 1;
+    color: var(--heo-secondtext);
+    font-size: 0.6rem;
+  }
+  
+  /* 内容 */
+  #bber > section > ul > div > li > div .datacont{
+    order: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--heo-lighttext);
+    width: 100%;
+  }
+  
+  /* 设备 */
+  #bber > section > ul > div > li > div .datafrom{
+    order: 2;
+    color: var(--heo-secondtext);
+    font-size: 0.6rem!important;
+    margin-left: 8px;
+  }
+  #bber > section > ul > div > li > div .datafrom small{
+    font-size: 100%;
+  }
+  
+  /* 时间线 */
+  .timeline ul li::before {
+    position: absolute;
+    top: 0.5rem;
+    left: 0rem;
+    z-index: 1;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 8px;
+    background: var(--card-bg);
+    content: "";
+    background-image: url(https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png);
+    background-size: 2rem;
+  }
