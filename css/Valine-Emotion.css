@@ -1,0 +1,6 @@
+.v[data-class=v] .vwrap .vemojis i{
+    width: 70px !important; 
+}
+.v[data-class=v] .emoji, .v[data-class=v] .vemoji{
+    max-width: 50px !important;
+}
